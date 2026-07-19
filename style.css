@@ -1,0 +1,47 @@
+/* MAKARA — yasal sayfalar ortak stil */
+:root{
+  --bg:#071613; --card:#0D241F; --cardAlt:#0A1C18; --border:#1F4238;
+  --borderSoft:#17362F; --emerald:#2AA17E; --emeraldBright:#5DCAA5;
+  --gold:#C9A24B; --goldDim:#8FA89E; --cream:#F3EAD9;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:radial-gradient(1200px 600px at 50% -10%, #0b211c 0%, var(--bg) 60%);
+  color:var(--cream);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  line-height:1.65; padding:40px 18px; min-height:100vh;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:760px;margin:0 auto}
+.brand{text-align:center;margin-bottom:8px}
+.wordmark{
+  font-family:'Cinzel',Georgia,serif;font-weight:700;font-size:30px;
+  letter-spacing:5px;color:var(--cream)
+}
+.wordmark .o{color:var(--gold)}
+.tagline{text-align:center;color:var(--goldDim);font-size:13px;
+  letter-spacing:1px;margin-bottom:36px}
+h1{font-family:'Cinzel',Georgia,serif;font-size:26px;letter-spacing:1px;
+  color:var(--cream);margin-bottom:6px;font-weight:700}
+.updated{color:var(--goldDim);font-size:13px;margin-bottom:28px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;
+  padding:26px 28px;margin-bottom:20px}
+h2{font-family:'Cinzel',Georgia,serif;font-size:17px;letter-spacing:.5px;
+  color:var(--gold);margin:26px 0 12px;font-weight:700}
+h2:first-child{margin-top:0}
+h3{font-size:14.5px;color:var(--emeraldBright);margin:18px 0 8px;font-weight:600}
+p{margin-bottom:14px;color:var(--cream)}
+ul{margin:0 0 16px 0;padding-left:22px}
+li{margin-bottom:7px;color:var(--cream)}
+strong{color:var(--cream);font-weight:600}
+a{color:var(--emeraldBright);text-decoration:none}
+a:hover{text-decoration:underline}
+.legal-note{background:var(--cardAlt);border:1px solid var(--borderSoft);
+  border-radius:12px;padding:14px 16px;margin:16px 0;font-size:14px;
+  color:var(--goldDim)}
+.contact{color:var(--goldDim);font-size:14.5px}
+.contact a{font-weight:600}
+footer{text-align:center;color:var(--goldDim);font-size:13px;
+  margin-top:28px;padding-top:20px;border-top:1px solid var(--borderSoft)}
+footer a{color:var(--gold)}
